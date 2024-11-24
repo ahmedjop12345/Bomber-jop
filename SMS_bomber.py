@@ -45,7 +45,7 @@ def send_sms(account_sid, auth_token, to_number, message, count, sleep_time):
 
 try:
     banner()
-    account_sid = ''  # Replace with your Twilio SID
+    account_sid = 'AC4ffd0292d2fc13816a9dcbac509d2c67'  # Replace with your Twilio SID
     auth_token = '4edb0933402a1b11a4d3faa475ca0691'  # Replace with your Twilio Auth Token
     
     number = raw_input("Enter mobile number (Yemen format +967xxxxxxxxx): ")
